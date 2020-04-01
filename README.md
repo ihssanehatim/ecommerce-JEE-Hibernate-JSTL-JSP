@@ -26,8 +26,7 @@ j'ai utilisé le meme concept de aliexpress .
 
 ![checkout :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/checkout.png)
 
-![checkout2 :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/checkout
-2.png)
+![checkout2 :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/checkout2.png)
 
 
 
