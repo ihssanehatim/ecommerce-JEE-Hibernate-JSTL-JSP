@@ -11,3 +11,6 @@ si vous choisissez ' add to cart ' vous pouvez indiquer la quantité voulue puis
 il se peut qu'un produit sera disponible plutot que l'autre , ou bien comme les cas de dropshipping
 j'ai utilisé le meme concept de aliexpress .
 ))
+
+
+![this is some screens :](./FOLDER\ SQL\ AND\ SCREENS/screenshot/adminSpace.png)
