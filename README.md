@@ -19,3 +19,18 @@ j'ai utilisé le meme concept de aliexpress .
 
 ![cart view :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/cart.png)
 ![display categories :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/categories.png)
+
+
+![display products :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/products.png)
+![description :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/description.png)
+
+![checkout :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/checkout.png)
+
+![checkout2 :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/checkout
+2.png)
+
+
+
+THANK YOU !
+
+
