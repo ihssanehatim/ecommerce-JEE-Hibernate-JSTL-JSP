@@ -13,4 +13,9 @@ j'ai utilisé le meme concept de aliexpress .
 ))
 
 
-![this is some screens :](./FOLDER\ SQL\ AND\ SCREENS/screenshot/adminSpace.png)
+![this is some screens :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/adminSpace.png)
+![clients view :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/clientSpace.png)
+![authentification view :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/authentif.png)
+
+![cart view :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/cart.png)
+![display categories :](https://github.com/ihssanehatim/ecommerce-JEE-Hibernate-JSTL-JSP/blob/master/FOLDER%20SQL%20AND%20SCREENS/screenshot/categories.png)
