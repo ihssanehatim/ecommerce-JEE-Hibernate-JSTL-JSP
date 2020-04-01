@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 29, 2020 10:43:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mini.projet.BO.Categories" table="categories" catalog="ecommerce" optimistic-lock="version">
+        <id name="idCat" type="java.lang.Integer">
+            <column name="id_cat" />
+            <generator class="identity" />
+        </id>
+        <property name="label" type="string">
+            <column name="label" length="20" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="65535" />
+        </property>
+        <set name="productses" table="products" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_cat" not-null="true" />
+            </key>
+            <one-to-many class="mini.projet.BO.Products" />
+        </set>
+    </class>
+</hibernate-mapping>

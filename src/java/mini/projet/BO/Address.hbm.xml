@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 29, 2020 10:43:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mini.projet.BO.Address" table="address" catalog="ecommerce" optimistic-lock="version">
+        <id name="idAddress" type="java.lang.Integer">
+            <column name="id_address" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="client" class="mini.projet.BO.Client" fetch="select">
+            <column name="username" length="10" />
+        </many-to-one>
+        <property name="ville" type="string">
+            <column name="ville" length="20" not-null="true" />
+        </property>
+        <property name="pays" type="string">
+            <column name="pays" length="20" not-null="true" />
+        </property>
+        <property name="rue" type="string">
+            <column name="rue" length="20" not-null="true" />
+        </property>
+        <property name="maison" type="int">
+            <column name="maison" not-null="true" />
+        </property>
+        <set name="commandes" table="commande" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_address" not-null="true" />
+            </key>
+            <one-to-many class="mini.projet.BO.Commande" />
+        </set>
+    </class>
+</hibernate-mapping>

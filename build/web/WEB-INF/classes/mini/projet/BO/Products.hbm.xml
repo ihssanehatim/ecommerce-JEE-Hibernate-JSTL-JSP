@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 29, 2020 10:43:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mini.projet.BO.Products" table="products" catalog="ecommerce" optimistic-lock="version">
+        <id name="idProd" type="java.lang.Integer">
+            <column name="id_prod" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="categories" class="mini.projet.BO.Categories" fetch="select">
+            <column name="id_cat" not-null="true" />
+        </many-to-one>
+        <property name="price" type="double">
+            <column name="price" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="label" type="string">
+            <column name="label" length="20" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="65535" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="quantity" not-null="true" />
+        </property>
+        <property name="image" type="binary">
+            <column name="image" not-null="true" />
+        </property>
+        <set name="commandes" table="commande" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id_prod" not-null="true" />
+            </key>
+            <one-to-many class="mini.projet.BO.Commande" />
+        </set>
+    </class>
+</hibernate-mapping>

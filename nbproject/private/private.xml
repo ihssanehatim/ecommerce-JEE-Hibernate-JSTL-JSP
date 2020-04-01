@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Address.hbm.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/mesCommandesViewAdmin.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/store.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Address.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/panierServ.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/ClientMetier.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Client.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/passerCommande.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/index.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Products.hbm.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/account.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/CommandeMetier.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/CategoriesMetier.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/DescriptionProd.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/hibernate.reveng.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/product.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Products.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/MyCart.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/checkout.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/blank.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/mesCommandesViewClient.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/footer.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/ProductsMetier.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Commande.hbm.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/singleCat.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Categories.hbm.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/addressMetier.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/Authentif.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Client.hbm.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/BO/Commande.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/DisplayProducts.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/cart.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/nbproject/ant-deploy.xml</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/web/header.jsp</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/controlleur/updateCommande.java</file>
+            <file>file:/C:/Users/ihssane/Documents/JEE_JAVA/ecommerce/src/java/mini/projet/DAO/HibernateUtil.java</file>
+        </group>
+    </open-files>
+</project-private>

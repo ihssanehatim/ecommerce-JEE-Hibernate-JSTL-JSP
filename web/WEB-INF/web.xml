@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <session-config>
+        <session-timeout>
+            10
+        </session-timeout>
+    </session-config>
+    <display-name>project hibernate</display-name>
+    <servlet>
+        <servlet-name>prod</servlet-name>
+        <servlet-class>mini.projet.controlleur.DisplayProducts</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>auth</servlet-name>
+        <servlet-class>mini.projet.controlleur.Authentif</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>MyCart</servlet-name>
+        <servlet-class>mini.projet.controlleur.MyCart</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>singleProd</servlet-name>
+        <servlet-class>mini.projet.controlleur.singleProd</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>singleCat</servlet-name>
+        <servlet-class>mini.projet.controlleur.singleCat</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>passerCommande</servlet-name>
+        <servlet-class>mini.projet.controlleur.passerCommande</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Description</servlet-name>
+        <servlet-class>mini.projet.controlleur.DescriptionProd</servlet-class>
+    </servlet>
+       <servlet>
+        <servlet-name>Panier</servlet-name>
+        <servlet-class>mini.projet.controlleur.panierServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>prod</servlet-name>
+        <url-pattern>/prod</url-pattern>
+        <url-pattern>/Prod</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Description</servlet-name>
+        <url-pattern>/description</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>singleCat</servlet-name>
+        <url-pattern>/productsOfCategory</url-pattern>
+        <url-pattern>/ProductsOfCategory</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MyCart</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+          <servlet-mapping>
+        <servlet-name>Panier</servlet-name>
+        <url-pattern>/panier</url-pattern>
+    </servlet-mapping>
+          <servlet-mapping>
+        <servlet-name>passerCommande</servlet-name>
+        <url-pattern>/passerCommande</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>auth</servlet-name>
+        <url-pattern>/Authentif</url-pattern>
+    </servlet-mapping>
+     <!--  
+<error-page>
+    <error-code>500</error-code>
+    <location>/blank.jsp</location>
+</error-page>
+<error-page>
+    <error-code>404</error-code>
+    <location>/blank.jsp</location>
+</error-page>
+    
+ 
+    <servlet>
+        <servlet-name></servlet-name>
+        <servlet-class>client.formulaire.controleur.ServletControlAffichage</servlet-class>
+        </servlet>
+         <servlet-mapping>
+             <servlet-name>affichage</servlet-name>
+             <url-pattern>/affichage</url-pattern>
+    </servlet-mapping>
+    -->
+</web-app>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 29, 2020 10:43:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mini.projet.BO.Client" table="client" catalog="ecommerce" optimistic-lock="version">
+        <id name="username" type="string">
+            <column name="username" length="10" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="string">
+            <column name="password" length="10" not-null="true" />
+        </property>
+        <property name="fn" type="string">
+            <column name="fn" length="10" not-null="true" />
+        </property>
+        <property name="ln" type="string">
+            <column name="ln" length="10" not-null="true" />
+        </property>
+        <set name="commandes" table="commande" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="username" length="10" />
+            </key>
+            <one-to-many class="mini.projet.BO.Commande" />
+        </set>
+        <set name="addresses" table="address" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="username" length="10" />
+            </key>
+            <one-to-many class="mini.projet.BO.Address" />
+        </set>
+    </class>
+</hibernate-mapping>
